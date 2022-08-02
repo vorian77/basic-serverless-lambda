@@ -8,6 +8,6 @@ provider:
 
 functions:
   hello:
-    handler: SRC/handler.generateRamdonNumber
+    handler: src/handler.generateRamdonNumber
     timeout: 60 # seconds
     memorySize: 128 # mb
